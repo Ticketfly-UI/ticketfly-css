@@ -1,0 +1,68 @@
+ /**
+  * ANIMATION DURATION VARIABLES
+  */
+
+ :root {
+   --duration__default: 0.3s;
+
+   /**
+    * Scaling the size of an element up or down
+    */
+   --duration__element-scaling--light: 0.15s;  /* Lightweight */
+   --duration__element-scaling--heavy: 0.35s;  /* Heavyweight */
+
+   /**
+    * When the position of an element isto a
+    * different order in its common region (http://www.ncbi.nlm.nih.gov/pubmed/1516361)
+    */
+   --duration__reposition-element: 0.45s;
+
+   /**
+    * Duration for sliding an element across the space of the view
+    */
+   --duration__slide-element: 0.42s;
+
+  /**
+   * shifting an element within its container
+   * This is a swifter motion than sliding across
+   * the overarching view
+   */
+   --duration__shift-element: 0.2s;
+
+
+   /**
+    * https://www.youtube.com/watch?v=fULNUr0rvEc
+    */
+   --duration__fade-in-or-out: 0.35s;
+
+
+   /**
+    * A similar notion to fading in -- but more aggressive
+    * https://cdn-images-1.medium.com/max/800/1*HJHfcRwn33XU4omMogi6PQ.gif
+    */
+   --duration__pop: 0.275s;
+
+
+   /**
+    * Sliding an element across the space of a view.
+    * Example: sliding a sidebar panel into or out of view
+    */
+   --duration__view-sliding: 0.80s;
+
+
+   /**
+   * Like element scaling, but more widely scoped
+   * (i.e. to a view or collection of elements)
+   */
+   --duration__zoom: 1s;
+
+   /**
+    * Change colors
+    */
+   --duration__color-shift: 0.25s;
+
+   /**
+   * A hastened departure...
+   */
+   --duration__gtfo: 0.2s;
+ }
