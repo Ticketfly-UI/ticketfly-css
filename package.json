@@ -1,0 +1,12 @@
+{
+  "name": "ticketfly-ui-css",
+  "version": "0.0.1",
+  "description": "Ticketfly's CSS framework",
+  "stlye": "src/ticketfly-ui.css",
+  "repository": {
+    "url": "git@github.com:Ticketfly/ticketfly-ui-css.git",
+    "type": "git"
+  },
+  "author": "Brian Sipple <@Brian_Sipple>",
+  "license": "MIT"
+}
