@@ -1,4 +1,4 @@
-# Extending Ticketfly-UI-CSS
+# Extending ticketfly-css
 
 ## Using Variables
 

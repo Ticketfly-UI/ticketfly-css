@@ -1,3 +1,3 @@
-# ticketfly-ui-css
+# ticketfly-css
 
 _Ticketfly's CSS framework._
