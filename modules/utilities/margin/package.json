@@ -1,10 +1,9 @@
 {
-  "name": "ticketfly-css-overflow",
+  "name": "ticketfly-css-margin",
   "version": "0.0.1",
-  "description": "Overflow utilities for ticketfly-css",
-  "scripts": {
-    "prepublish": "mkdir -p dist && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u autoprefixer -o dist/overflow.css"
-  },
+  "description": "Margin utilities for ticketfly-css",
+  "main": "index.css",
+  "styles": "index.css",
   "repository": {
     "url": "git@github.com:Ticketfly/ticketfly-css.git",
     "type": "git"

@@ -1,19 +1,40 @@
 {
   "name": "ticketfly-css",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Ticketfly's CSS framework",
-  "style": "src/ticketfly-ui.css",
+  "style": "src/ticketfly-css.css",
   "repository": {
     "url": "git@github.com:Ticketfly/ticketfly-css.git",
     "type": "git"
   },
   "scripts": {
-
+    "build": "postcss -c postcss.config.js",
+    "minify": "postcss -u cssnano dist/ticketfly-css.css -o dist/ticketfly-css.min.css",
+    "important": "postcss -u postcss-importantly dist/ticketfly-css.css -o dist/ticketfly-css-important.css",
+    "important:min": "postcss -u postcss-importantly -u cssnano dist/ticketfly-css.css -o dist/ticketfly-css-important.min.css",
+    "custom-props": "postcss -u postcss-import -u postcss-custom-media src/ticketfly-css.css -o dist/ticketfly-css-cp.css",
+    "custom-props:min": "postcss -u postcss-import -u postcss-custom-media -u cssnano src/ticketfly-css.css -o dist/ticketfly-css-cp.min.css",
+    "prepublish": "mkdir -p dist && npm run build && npm run important && npm run custom-props && npm run minify && npm run important:min && npm run custom-props:min",
+    "start": "postcss -c postcss.config.js -w",
+    "test": "mocha test/**/*.spec.js"
   },
   "author": "Brian Sipple <@Brian_Sipple>",
   "license": "MIT",
   "devDependencies": {
-    "postcss-cli": "^2.6.0"
+    "chai": "^3.5.0",
+    "cssnano": "^3.8.1",
+    "cssstats": "^3.0.0",
+    "mocha": "^3.2.0",
+    "postcss-calc": "^5.3.1",
+    "postcss-cli": "^2.6.0",
+    "postcss-color-function": "^2.0.1",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-discard-comments": "^2.0.4",
+    "postcss-import": "^8.2.0",
+    "postcss-importantly": "^0.0.7",
+    "postcss-remove-root": "^0.0.2",
+    "postcss-reporter": "^2.0.0"
   },
   "keywords": [
     "css",
@@ -24,5 +45,11 @@
     "modular css",
     "responsive css",
     "lightweight css"
-  ]
+  ],
+  "engines": {
+    "node": ">=6.5"
+  },
+  "dependencies": {
+    "ticketfly-css-overflow": "^0.0.1"
+  }
 }

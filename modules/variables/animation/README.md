@@ -1,3 +1,3 @@
-# Ticketfly-CSS Animation Variables
+# Ticketfly CSS Animation Variables
 
 _Variables for Ticketfly CSS animation settings._
