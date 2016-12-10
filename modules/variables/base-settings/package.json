@@ -1,0 +1,31 @@
+{
+  "name": "ticketfly-css-base-settings-variables",
+  "version": "0.0.1",
+  "description": "Base settings variables shared across ticketfly-css",
+  "main": "index.css",
+  "styles": "index.css",
+  "repository": {
+    "url": "git@github.com:Ticketfly/ticketfly-css.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ticketfly/ticketfly-css/issues"
+  },
+  "keywords": [
+    "ticketfly css",
+    "base css",
+    "base css settings",
+    "base css variables",
+    "css"
+  ],
+  "homepage": "https://github.com/Ticketfly/ticketfly-css/issues",
+  "author": "Brian Sipple <@Brian_Sipple>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "postcss-cli": "^2.6.0",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-import": "^8.2.0"
+  }
+}

@@ -1,0 +1,9 @@
+:root {
+  --font-size--base: 1rem;
+
+  --line-height--base: 1.5;
+
+  --border-radius--base: 0.125em;
+
+  --spacing--base: 0.125rem;
+}
