@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Variables for Ticketfly CSS animation settings",
   "main": "index.css",
-  "styles": "index.css",
+  "style": "index.css",
   "repository": {
     "url": "git@github.com:Ticketfly/ticketfly-css.git",
     "type": "git"

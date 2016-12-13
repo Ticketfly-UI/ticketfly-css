@@ -1,0 +1,8 @@
+{
+  "use": [
+    "cssnano"
+  ],
+  "cssnano": {
+    "autoprefixer": false
+  }
+}

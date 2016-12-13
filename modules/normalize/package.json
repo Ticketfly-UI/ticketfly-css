@@ -2,12 +2,25 @@
   "name": "ticketfly-css-normalize",
   "version": "0.0.1",
   "description": "Normalization settings for ticketfly-css",
-  "main": "index.css",
-  "styles": "index.css",
+  "main": "dist/index.min.css",
+  "style": "dist/index.min.css",
+  "files": [
+    "dist/index.min.css"
+  ],
+  "scripts": {
+    "build": "mkdir -p dist && postcss index.css --config postcss.json -o dist/index.min.css",
+    "prepublish": "npm run build"
+  },
   "repository": {
     "url": "git@github.com:Ticketfly/ticketfly-css.git",
     "type": "git"
   },
+  "keywords": [
+    "ticketfly css",
+    "ticketfly css normalize",
+    "css normalize",
+    "css"
+  ],
   "bugs": {
     "url": "https://github.com/Ticketfly/ticketfly-css/issues"
   },
@@ -15,10 +28,7 @@
   "author": "Brian Sipple <@Brian_Sipple>",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^6.5.3",
-    "postcss-cli": "^2.6.0",
-    "postcss-custom-media": "^5.0.1",
-    "postcss-custom-properties": "^5.0.1",
-    "postcss-import": "^8.2.0"
+    "cssnano-cli": "^1.0.5",
+    "postcss-cli": "^2.6.0"
   }
 }
