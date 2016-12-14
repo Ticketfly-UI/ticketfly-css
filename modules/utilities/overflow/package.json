@@ -2,13 +2,23 @@
   "name": "ticketfly-css-overflow",
   "version": "0.0.1",
   "description": "Overflow utilities for ticketfly-css",
+  "main": "dist/ticketfly-css-overflow.css",
+  "style": "dist/ticketfly-css-overflow.css",
   "scripts": {
-    "prepublish": "mkdir -p dist && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u autoprefixer -o dist/overflow.css"
+    "clean": "del dist/**",
+    "transform": "mkdir -p dist && postcss --config postcss.config.js",
+    "minify": "postcss -u cssnano dist/ticketfly-css-overflow.css -o dist/ticketfly-css-overflow.min.css",
+    "build": "npm run clean && npm run transform",
+    "build:min": "npm run build && npm run minify",
+    "prepublish": "mkdir -p dist && npm run build"
   },
   "repository": {
     "url": "git@github.com:Ticketfly/ticketfly-css.git",
     "type": "git"
   },
+  "files": [
+    "dist/ticketfly-css-overflow.css"
+  ],
   "bugs": {
     "url": "https://github.com/Ticketfly/ticketfly-css/issues"
   },
@@ -16,10 +26,8 @@
   "author": "Brian Sipple <@Brian_Sipple>",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^6.5.3",
-    "postcss-cli": "^2.6.0",
-    "postcss-custom-media": "^5.0.1",
-    "postcss-custom-properties": "^5.0.1",
-    "postcss-import": "^8.2.0"
+    "cssnano": "^3.9.1",
+    "del-cli": "^0.2.1",
+    "postcss-cli": "^2.6.0"
   }
 }
