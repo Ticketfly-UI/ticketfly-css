@@ -1,6 +1,6 @@
 {
   "name": "ticketfly-css-overflow",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Overflow utilities for ticketfly-css",
   "main": "dist/ticketfly-css-overflow.css",
   "style": "dist/ticketfly-css-overflow.css",

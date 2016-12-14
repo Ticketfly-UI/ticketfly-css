@@ -1,3 +1,9 @@
+# 0.0.2 (December 14, 2016)
+
+- Proper `package.json` and `postcss.config.js` files.
+- Proper `package.json` build scripts.
+
+
 # 0.0.1 (November 26, 2016)
 
 - Overflow helpers for `auto` and `hidden`
