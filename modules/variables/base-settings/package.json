@@ -2,11 +2,22 @@
   "name": "ticketfly-css-base-settings-variables",
   "version": "0.0.1",
   "description": "Base settings variables shared across ticketfly-css",
-  "main": "index.css",
-  "style": "index.css",
+  "main": "dist/ticketfly-css-base-settings-variables.css",
+  "style": "dist/ticketfly-css-base-settings-variables.css",
   "repository": {
     "url": "git@github.com:Ticketfly/ticketfly-css.git",
     "type": "git"
+  },
+  "files": [
+    "dist/ticketfly-css-base-settings-variables.css"
+  ],
+  "scripts": {
+    "clean": "del dist/**",
+    "transform": "mkdir -p dist && postcss --config postcss.config.js",
+    "minify": "postcss -u cssnano dist/ticketfly-css-base-settings-variables.css -o dist/ticketfly-css-base-settings-variables.min.css",
+    "build": "npm run clean && npm run transform",
+    "build:min": "npm run build && npm run minify",
+    "prepublish": "mkdir -p dist && npm run build:min"
   },
   "bugs": {
     "url": "https://github.com/Ticketfly/ticketfly-css/issues"
@@ -22,10 +33,8 @@
   "author": "Brian Sipple <@Brian_Sipple>",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^6.5.3",
-    "postcss-cli": "^2.6.0",
-    "postcss-custom-media": "^5.0.1",
-    "postcss-custom-properties": "^5.0.1",
-    "postcss-import": "^8.2.0"
+    "cssnano": "^3.9.1",
+    "del-cli": "^0.2.1",
+    "postcss-cli": "^2.6.0"
   }
 }

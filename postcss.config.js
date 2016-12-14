@@ -1,5 +1,3 @@
-const postcss = require('postcss');
-
 module.exports = {
   use: [
     'postcss-import',

@@ -8,7 +8,8 @@
     "type": "git"
   },
   "scripts": {
-    "build": "postcss -c postcss.config.js",
+    "clean": "del dist/**",
+    "build": "npm run clean && postcss -c postcss.config.js",
     "minify": "postcss -u cssnano dist/ticketfly-css.css -o dist/ticketfly-css.min.css",
     "important": "postcss -u postcss-importantly dist/ticketfly-css.css -o dist/ticketfly-css-important.css",
     "important:min": "postcss -u postcss-importantly -u cssnano dist/ticketfly-css.css -o dist/ticketfly-css-important.min.css",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "cssstats": "^3.0.0",
+    "del-cli": "^0.2.1",
     "mocha": "^3.2.0",
     "postcss-calc": "^5.3.1",
     "postcss-cli": "^2.6.0",
@@ -49,6 +51,7 @@
     "node": ">=6.5"
   },
   "dependencies": {
+    "cssnano": "^3.9.1",
     "ticketfly-css-overflow": "^0.0.1"
   }
 }
