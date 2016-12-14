@@ -10,6 +10,6 @@ module.exports = {
     'autoprefixer',
     'postcss-reporter'
   ],
-  input: 'src/ticketfly-css.css',
+  input: 'src/index.css',
   dir: 'dist'
 };

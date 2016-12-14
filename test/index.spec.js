@@ -8,7 +8,7 @@ const postcssCustomProperties = require('postcss-custom-properties');
 const postcssCalc = require('postcss-calc');
 const { expect } = require('chai');
 
-const srcCSSPath = path.join(__dirname, '../src/ticketfly-css.css');
+const srcCSSPath = path.join(__dirname, '../src/index.css');
 
 const srcCSS = fs.readFileSync(srcCSSPath, 'utf-8');
 
@@ -33,15 +33,23 @@ describe('Ticketfly CSS', () => {
     });
   });
 
-  it('should compile to a string', () => {
+  it('compiles to a string', () => {
     expect(typeof compiledCSS).to.equal('string');
   });
 
-  it('should compile to a css', () => {
+  it('compiles to a css', () => {
     expect(generateStats.bind(this, { safe: false })).to.not.throw(Error);
   });
 
-  it('should define some rules', () => {
+  it('defines some rules', () => {
     expect(compiledCSSStats.rules.total > 0).to.equal(true);
+  });
+
+  it('makes some declarations', () => {
+    expect(compiledCSSStats.declarations.total > 0).to.equal(true);
+  });
+
+  it('makes some declarations involving properties', () => {
+    expect(Object.keys(compiledCSSStats.declarations.properties).length > 0).to.equal(true);
   });
 });

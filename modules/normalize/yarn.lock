@@ -1928,6 +1928,10 @@ tar@~2.2.1:
     fstream "^1.0.2"
     inherits "2"
 
+ticketfly-css-normalize@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/ticketfly-css-normalize/-/ticketfly-css-normalize-0.0.2.tgz#28db47ebd6503446395c3a3631b80b744b3dd2db"
+
 timed-out@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/timed-out/-/timed-out-3.0.0.tgz#ff88de96030ce960eabd42487db61d3add229273"
