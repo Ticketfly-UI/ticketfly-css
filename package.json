@@ -21,22 +21,6 @@
   },
   "author": "Brian Sipple <@Brian_Sipple>",
   "license": "MIT",
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "cssstats": "^3.0.0",
-    "del-cli": "^0.2.1",
-    "mocha": "^3.2.0",
-    "postcss-calc": "^5.3.1",
-    "postcss-cli": "^2.6.0",
-    "postcss-color-function": "^2.0.1",
-    "postcss-custom-media": "^5.0.1",
-    "postcss-custom-properties": "^5.0.1",
-    "postcss-discard-comments": "^2.0.4",
-    "postcss-import": "^8.2.0",
-    "postcss-importantly": "^0.0.7",
-    "postcss-remove-root": "^0.0.2",
-    "postcss-reporter": "^2.0.0"
-  },
   "keywords": [
     "css",
     "ticketfly css",
@@ -55,5 +39,21 @@
     "ticketfly-css-base-settings-variables": "0.0.2",
     "ticketfly-css-normalize": "0.0.2",
     "ticketfly-css-overflow": "0.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "cssstats": "^3.0.0",
+    "del-cli": "^0.2.1",
+    "mocha": "^3.2.0",
+    "postcss-calc": "^5.3.1",
+    "postcss-cli": "^2.6.0",
+    "postcss-color-function": "^2.0.1",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-discard-comments": "^2.0.4",
+    "postcss-import": "^8.2.0",
+    "postcss-importantly": "^0.0.7",
+    "postcss-remove-root": "^0.0.2",
+    "postcss-reporter": "^2.0.0"
   }
 }
