@@ -2,7 +2,8 @@
   "name": "ticketfly-css",
   "version": "0.0.1",
   "description": "Ticketfly's CSS framework",
-  "style": "src/ticketfly-css.css",
+  "style": "src/index.css",
+  "main": "src/index.css",
   "repository": {
     "url": "git@github.com:Ticketfly/ticketfly-css.git",
     "type": "git"
@@ -13,8 +14,8 @@
     "minify": "postcss -u cssnano dist/ticketfly-css.css -o dist/ticketfly-css.min.css",
     "important": "postcss -u postcss-importantly dist/ticketfly-css.css -o dist/ticketfly-css-important.css",
     "important:min": "postcss -u postcss-importantly -u cssnano dist/ticketfly-css.css -o dist/ticketfly-css-important.min.css",
-    "custom-props": "postcss -u postcss-import -u postcss-custom-media src/ticketfly-css.css -o dist/ticketfly-css-cp.css",
-    "custom-props:min": "postcss -u postcss-import -u postcss-custom-media -u cssnano src/ticketfly-css.css -o dist/ticketfly-css-cp.min.css",
+    "custom-props": "postcss -u postcss-import -u postcss-custom-media src/index.css -o dist/ticketfly-css-cp.css",
+    "custom-props:min": "postcss -u postcss-import -u postcss-custom-media -u cssnano src/index.css -o dist/ticketfly-css-cp.min.css",
     "prepublish": "mkdir -p dist && npm run build && npm run important && npm run custom-props && npm run minify && npm run important:min && npm run custom-props:min",
     "start": "postcss -c postcss.config.js -w",
     "test": "mocha test/**/*.spec.js"
@@ -37,7 +38,7 @@
   "dependencies": {
     "cssnano": "^3.9.1",
     "ticketfly-css-base-settings-variables": "0.0.2",
-    "ticketfly-css-normalize": "0.0.2",
+    "ticketfly-css-normalize": "0.0.3",
     "ticketfly-css-overflow": "0.0.3"
   },
   "devDependencies": {

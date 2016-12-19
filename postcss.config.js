@@ -11,7 +11,7 @@
  */
 module.exports = {
   input: 'src/index.css',
-  dir: 'dist',
+  output: 'dist/ticketfly-css.css',
 
   use: [
     'postcss-import',

@@ -3092,7 +3092,13 @@ ticketfly-css-base-settings-variables@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/ticketfly-css-base-settings-variables/-/ticketfly-css-base-settings-variables-0.0.2.tgz#4c5177b869ed1d83f02a8b91be1b49f5d2b66ce0"
 
-ticketfly-css-normalize@0.0.2:
+ticketfly-css-normalize@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/ticketfly-css-normalize/-/ticketfly-css-normalize-0.0.3.tgz#bf23cd9ebde0ca0dbfa5658d4657a01d78026dd3"
+  dependencies:
+    ticketfly-css-normalize "^0.0.2"
+
+ticketfly-css-normalize@^0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/ticketfly-css-normalize/-/ticketfly-css-normalize-0.0.2.tgz#28db47ebd6503446395c3a3631b80b744b3dd2db"
 
