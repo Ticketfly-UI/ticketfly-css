@@ -54,6 +54,7 @@
     "postcss-import": "^8.2.0",
     "postcss-importantly": "^0.0.7",
     "postcss-remove-root": "^0.0.2",
-    "postcss-reporter": "^2.0.0"
+    "postcss-reporter": "^3.0.0",
+    "stylelint-config-ticketfly": "^0.1.0"
   }
 }

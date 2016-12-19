@@ -2998,6 +2998,10 @@ strip-json-comments@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-1.0.4.tgz#1e15fbcac97d3ee99bf2d73b4c656b082bbafb91"
 
+stylelint-config-ticketfly@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-ticketfly/-/stylelint-config-ticketfly-0.1.0.tgz#98ffd3d1afee360a4ef26ab7c846a092bd3780ed"
+
 supports-color@3.1.2, supports-color@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-3.1.2.tgz#72a262894d9d408b956ca05ff37b2ed8a6e2a2d5"
@@ -3083,6 +3087,14 @@ tar@~2.2.1:
     block-stream "*"
     fstream "^1.0.2"
     inherits "2"
+
+ticketfly-css-base-settings-variables@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/ticketfly-css-base-settings-variables/-/ticketfly-css-base-settings-variables-0.0.2.tgz#4c5177b869ed1d83f02a8b91be1b49f5d2b66ce0"
+
+ticketfly-css-normalize@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/ticketfly-css-normalize/-/ticketfly-css-normalize-0.0.2.tgz#28db47ebd6503446395c3a3631b80b744b3dd2db"
 
 ticketfly-css-overflow:
   version "0.0.1"

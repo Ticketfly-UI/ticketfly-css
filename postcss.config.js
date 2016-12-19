@@ -12,6 +12,7 @@
 module.exports = {
   input: 'src/index.css',
   dir: 'dist',
+
   use: [
     'postcss-import',
     'postcss-custom-media',
@@ -23,7 +24,19 @@ module.exports = {
     'autoprefixer',
     'postcss-reporter'
   ],
+
   stylelint: {
-    configFile: './stylelint.config.js'
+    configFile: './stylelint.config.js',
+    configOverrides: {
+      ignoreFiles: '**/normalize/index.css'
+    },
+    plugins: [
+      'stylelint'
+    ]
+  },
+
+  'postcss-reporter': {
+    clearAllMessages: true,
+    throwError: true
   }
 };
