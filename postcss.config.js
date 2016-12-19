@@ -1,4 +1,17 @@
+/* global module */
+
+/**
+ * Configuration for PostCSS.
+ *
+ * Properties names correspond to the `postcss-cli` properties
+ * accepted by the PostCSS CLI API -- with the addition of
+ * plugin names for plugin settings.
+ *
+ * @see: https://github.com/postcss/postcss-cli
+ */
 module.exports = {
+  input: 'src/index.css',
+  dir: 'dist',
   use: [
     'postcss-import',
     'postcss-custom-media',
@@ -10,6 +23,7 @@ module.exports = {
     'autoprefixer',
     'postcss-reporter'
   ],
-  input: 'src/index.css',
-  dir: 'dist'
+  stylelint: {
+    configFile: './stylelint.config.js'
+  }
 };
