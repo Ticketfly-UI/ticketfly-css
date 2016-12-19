@@ -1,6 +1,6 @@
 {
   "name": "ticketfly-css-normalize",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Normalization settings for ticketfly-css",
   "main": "dist/ticketfly-css-normalize.css",
   "style": "dist/ticketfly-css-normalize.css",
