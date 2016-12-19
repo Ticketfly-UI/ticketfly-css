@@ -1,7 +1,9 @@
 engines:
-  csslint:
+  stylelint:
     enabled: true
+    channel: "beta"
 
   ratings:
     paths:
+      -"./src/**.css",
       - "./modules/**.css"
