@@ -1,6 +1,6 @@
 {
   "name": "ticketfly-css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ticketfly's CSS framework",
   "style": "src/index.css",
   "main": "src/index.css",

@@ -1,3 +1,15 @@
+# 0.0.2 (December 19, 2016)
+
+- Patch update before beginning to convert overarching architecture
+  to an Ember addon.
+
+  + Integrate `ticketfly-css-normalize`
+  + Integrate `ticketfly-css-base-settings-variables`
+  + Integrate `stylelint-config-ticketfly`
+  + Fix build scripts to and [postcss.config.js](./postcss.config.js)
+    to properly integrate styleint
+
+
 # 0.0.1 (November 26, 2016)
 
 - Initial project pre-release setup
