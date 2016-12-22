@@ -35,8 +35,5 @@
     "cssnano": "^3.9.1",
     "del-cli": "^0.2.1",
     "postcss-cli": "^2.6.0"
-  },
-  "dependencies": {
-    "ticketfly-css-normalize": "^0.0.2"
   }
 }
