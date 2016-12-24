@@ -2,28 +2,22 @@
   "name": "ticketfly-css-normalize",
   "version": "0.0.4",
   "description": "Normalization settings for ticketfly-css",
-  "main": "dist/ticketfly-css-normalize.css",
-  "style": "dist/ticketfly-css-normalize.css",
-  "files": [
-    "dist/ticketfly-css-normalize.css"
+  "main": "index.css",
+  "style": "index.css",
+  "keywords": [
+    "ticketfly-css",
+    "ticketfly-css normalize",
+    "css normalize",
+    "css"
   ],
-  "scripts": {
-    "clean": "del dist/**",
-    "transform": "mkdir -p dist && postcss --config postcss.config.js",
-    "minify": "postcss -u cssnano dist/ticketfly-normalize.css -o dist/ticketfly-normalize.min.css",
-    "build": "npm run clean && npm run transform",
-    "build:min": "npm run build && npm run minify",
-    "prepublish": "mkdir -p dist && npm run build"
-  },
   "repository": {
     "url": "git@github.com:Ticketfly/ticketfly-css.git",
     "type": "git"
   },
-  "keywords": [
-    "ticketfly css",
-    "ticketfly css normalize",
-    "css normalize",
-    "css"
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "index.css"
   ],
   "bugs": {
     "url": "https://github.com/Ticketfly/ticketfly-css/issues"
@@ -35,5 +29,14 @@
     "cssnano": "^3.9.1",
     "del-cli": "^0.2.1",
     "postcss-cli": "^2.6.0"
+  },
+  "scripts": {
+    "clean": "del build/**",
+    "setup": "mkdir -p build",
+    "transform": "postcss --config postcss.config.js",
+    "minify": "postcss -u cssnano build/ticketfly-css-normalize.css -o build/ticketfly-css-normalize.min.css",
+    "build": "npm run transform",
+    "build:min": "npm run build && npm run minify",
+    "prepublish": "npm run setup && npm run build"
   }
 }
