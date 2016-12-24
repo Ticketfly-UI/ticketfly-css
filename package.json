@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "cssnano": "^3.9.1",
-    "ticketfly-css-base-settings-variables": "0.0.2",
+    "ticketfly-css-base-settings-variables": "0.0.3",
     "ticketfly-css-normalize": "0.0.4",
     "ticketfly-css-overflow": "0.0.3"
   },
