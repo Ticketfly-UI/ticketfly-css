@@ -1,24 +1,28 @@
 {
   "name": "ticketfly-css-spacing-variables",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Variables for Ticketfly CSS spacing settings",
+  "keywords": [
+    "ticketfly-css",
+    "ticketfly-css spacing",
+    "ticketfly-css spacing variables",
+    "css custom properties",
+    "css",
+    "css spacing"
+  ],
   "main": "index.css",
   "style": "index.css",
   "repository": {
     "url": "git@github.com:Ticketfly/ticketfly-css.git",
     "type": "git"
   },
+  "files": [
+    "index.css"
+  ],
   "bugs": {
     "url": "https://github.com/Ticketfly/ticketfly-css/issues"
   },
   "homepage": "https://github.com/Ticketfly/ticketfly-css/issues",
   "author": "Brian Sipple <@Brian_Sipple>",
-  "license": "MIT",
-  "devDependencies": {
-    "autoprefixer": "^6.5.3",
-    "postcss-cli": "^2.6.0",
-    "postcss-custom-media": "^5.0.1",
-    "postcss-custom-properties": "^5.0.1",
-    "postcss-import": "^8.2.0"
-  }
+  "license": "MIT"
 }
