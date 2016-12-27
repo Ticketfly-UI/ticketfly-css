@@ -1,0 +1,10 @@
+.g-list-reset {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.g-link-reset {
+  text-decoration: none;
+  color: initial;
+}

@@ -1,0 +1,45 @@
+{
+  "name": "ticketfly-css-garnishes",
+  "version": "0.0.1",
+  "description": "Garnish helpers for ticketfly-css",
+  "main": "index.css",
+  "style": "index.css",
+  "keywords": [
+    "ticketfly-css",
+    "ticketfly-css garnishes",
+    "css garnishes",
+    "css"
+  ],
+  "repository": {
+    "url": "git@github.com:Ticketfly/ticketfly-css.git",
+    "type": "git"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "index.css"
+  ],
+  "bugs": {
+    "url": "https://github.com/Ticketfly/ticketfly-css/issues"
+  },
+  "homepage": "https://github.com/Ticketfly/ticketfly-css/issues",
+  "author": "Brian Sipple <@Brian_Sipple>",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^3.9.1",
+    "del-cli": "^0.2.1",
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.9.0"
+  },
+  "scripts": {
+    "clean": "del build/**",
+    "setup": "mkdir -p build",
+    "transform": "postcss --config postcss.config.js",
+    "minify": "postcss -u cssnano build/ticketfly-css-garnishes.css -o build/ticketfly-css-garnishes.min.css",
+    "build": "npm run transform",
+    "build:test": "npm run clean && postcss -u postcss-cssnext test/index-test.css -o build/test.css",
+    "build:min": "npm run build && npm run minify",
+    "prepublish": "npm run clean && npm run setup && npm run build",
+    "test": "npm run build:test"
+  }
+}
