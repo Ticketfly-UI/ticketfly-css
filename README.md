@@ -29,6 +29,8 @@ A system of grid utilities built with Flexbox.
 
 See: [`ticketfly-css-grid`]()
 
+### Object Patterns
+
 ### Animation Variables
 
 ### Spacing Variables
