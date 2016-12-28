@@ -1,6 +1,6 @@
 {
   "name": "ticketfly-css-reset-garnishes",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Garnish helpers for ticketfly-css",
   "main": "index.css",
   "style": "index.css",
