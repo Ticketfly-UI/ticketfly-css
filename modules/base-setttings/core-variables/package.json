@@ -1,7 +1,7 @@
 {
   "name": "ticketfly-css-core-variables",
-  "version": "0.0.0",
-  "description": "Garnish helpers for ticketfly-css",
+  "version": "0.0.1",
+  "description": "Core variables for ticketfly-css",
   "main": "index.css",
   "style": "index.css",
   "keywords": [
