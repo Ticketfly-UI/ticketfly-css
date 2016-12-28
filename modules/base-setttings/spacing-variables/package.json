@@ -31,6 +31,7 @@
     "del-cli": "^0.2.1",
     "postcss-cli": "^2.6.0",
     "postcss-cssnext": "^2.9.0",
+    "postcss-import": "^9.0.0",
     "ticketfly-css-core-variables": "^0.0.1"
   },
   "scripts": {
@@ -39,7 +40,7 @@
     "transform": "postcss --config postcss.config.js",
     "minify": "postcss -u cssnano build/ticketfly-css-spacing-variables.css -o build/ticketfly-css-spacing-variables.min.css",
     "build": "npm run transform",
-    "build:test": "npm run clean && postcss -u postcss-cssnext test/index-test.css -o build/test.css",
+    "build:test": "npm run clean && postcss -u postcss-import -u postcss-cssnext test/index-test.css -o build/test.css",
     "build:min": "npm run build && npm run minify",
     "prepublish": "npm run clean && npm run setup && npm run build",
     "test": "npm run build:test"
