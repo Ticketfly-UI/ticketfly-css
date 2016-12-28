@@ -14,28 +14,30 @@ _Ticketfly's CSS framework._
 
 ### Normalize
 
-### Margin
+### Base Settings
+#### Animation Variables
 
-### Padding
+#### Spacing Variables
 
-### Overflow
+#### Core Variables
 
-### Alignment
+### Utilities
+#### Margin
 
-### Sizing
+#### Padding
 
-### Grid
+#### Overflow
+
+#### Alignment
+
+#### Sizing
+
+### Object Patterns
+#### Grid
 A system of grid utilities built with Flexbox.
 
 See: [`ticketfly-css-grid`]()
 
-### Object Patterns
-
-### Animation Variables
-
-### Spacing Variables
-
-### Core Variables
 
 ## In Progress
 
