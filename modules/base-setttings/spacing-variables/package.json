@@ -30,7 +30,8 @@
     "cssnano": "^3.9.1",
     "del-cli": "^0.2.1",
     "postcss-cli": "^2.6.0",
-    "postcss-cssnext": "^2.9.0"
+    "postcss-cssnext": "^2.9.0",
+    "ticketfly-css-core-variables": "^0.0.1"
   },
   "scripts": {
     "clean": "del build/**",
