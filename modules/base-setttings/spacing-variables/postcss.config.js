@@ -1,9 +1,10 @@
 /* global module */
 module.exports = {
   input: 'index.css',
-  output: 'build/ticketfly-css-reset-garnishes.css',
+  output: 'build/ticketfly-css-spacing-variables.css',
 
   use: [
-    'postcss-cssnext'
+    'postcss-cssnext',
+    'postcss-import'
   ]
 };
