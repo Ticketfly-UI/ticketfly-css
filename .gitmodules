@@ -4,3 +4,6 @@
 [submodule "modules/base-setttings/core-variables"]
 	path = modules/base-setttings/core-variables
 	url = git@github.com:Ticketfly-UI/ticketfly-css-core-variables.git
+[submodule "modules/utilities/overflow"]
+	path = modules/utilities/overflow
+	url = git@github.com:Ticketfly-UI/ticketfly-css-overflow-utilities.git
