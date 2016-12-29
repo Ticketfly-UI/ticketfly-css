@@ -12,6 +12,7 @@ const srcCSSPath = path.join(__dirname, '../src/index.css');
 
 const srcCSS = fs.readFileSync(srcCSSPath, 'utf-8');
 
+let compileReport;
 let compiledCSS;
 let compiledCSSStats;
 
@@ -28,9 +29,20 @@ describe('Ticketfly CSS', () => {
       postcssCalc
     ])
     .process(srcCSS)
-    .then((result) => {
+    .then(result => {
+      compileReport = result;
       compiledCSS = result.css;
     });
+  });
+
+  it('produces messages about the output', () => {
+    expect(Array.isArray(compileReport.messages)).to.equal(true);
+  });
+
+  it('compiles without errors or warnings', () => {
+    const warningCount = compileReport.messages.filter(message => message.type === 'warning').length;
+
+    expect(warningCount).to.equal(0);
   });
 
   it('compiles to a string', () => {
