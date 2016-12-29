@@ -10,3 +10,6 @@
 [submodule "modules/normalize"]
 	path = modules/normalize
 	url = git@github.com:Ticketfly-UI/ticketfly-css-normalize.git
+[submodule "modules/garnishes/reset"]
+	path = modules/garnishes/reset
+	url = git@github.com:Ticketfly-UI/ticketfly-css-reset-garnishes.git
