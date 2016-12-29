@@ -10,7 +10,7 @@
  */
 module.exports = {
   input: 'src/index.css',
-  output: 'dist/ticketfly-css.css',
+  output: 'build/ticketfly-css.css',
 
   // ⚠️ Order matters! PostCSS will run plugins in the order listed.
   use: [

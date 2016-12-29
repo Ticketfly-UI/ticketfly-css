@@ -2,6 +2,7 @@
 
 # compiled output
 /dist
+/build
 
 # dependencies
 /node_modules
@@ -10,3 +11,4 @@
 # misc
 /coverage/*
 npm-debug.log*
+yarn-error.log*
