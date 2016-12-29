@@ -1,0 +1,66 @@
+@import "../index.css";
+
+html {
+  font-size: 100%;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+.demo-grid {
+  width: 60%;
+  min-width: calc(var(--spacing-xl) * 2);
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.demo-grid .demo-grid__cell {
+  flex: 1;
+}
+
+.demo-grid-cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.demo-grid-label,
+.demo-grid-box {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+}
+
+.demo-grid-label {
+  margin-right: var(--spacing-sm);
+  justify-content: flex-end;
+}
+
+.demo-grid-box {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+}
+
+.demo-grid-box.demo-grid-box--base {
+  width: var(--base-spacing-unit);
+}
+.demo-grid-box.demo-grid-box--xs {
+  width: var(--spacing-xs);
+}
+.demo-grid-box.demo-grid-box--sm {
+  width: var(--spacing-sm);
+}
+.demo-grid-box.demo-grid-box--md {
+  width: var(--spacing-md);
+}
+.demo-grid-box.demo-grid-box--lg {
+  width: var(--spacing-lg);
+}
+.demo-grid-box.demo-grid-box--xl {
+  width: var(--spacing-xl);
+}

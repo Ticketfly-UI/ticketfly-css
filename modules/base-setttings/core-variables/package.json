@@ -1,40 +1,45 @@
 {
-  "name": "ticketfly-css-base-settings-variables",
-  "version": "0.0.2",
-  "description": "Base settings variables shared across ticketfly-css",
-  "main": "dist/ticketfly-css-base-settings-variables.css",
-  "style": "dist/ticketfly-css-base-settings-variables.css",
+  "name": "ticketfly-css-core-variables",
+  "version": "0.0.1",
+  "description": "Core variables for ticketfly-css",
+  "main": "index.css",
+  "style": "index.css",
+  "keywords": [
+    "ticketfly css",
+    "ticketfly css core variables",
+    "ticketfly css variables",
+    "css variables"
+  ],
   "repository": {
     "url": "git@github.com:Ticketfly/ticketfly-css.git",
     "type": "git"
   },
   "files": [
-    "dist/ticketfly-css-base-settings-variables.css"
+    "CHANGELOG.md",
+    "LICENSE",
+    "index.css"
   ],
-  "scripts": {
-    "clean": "del dist/**",
-    "transform": "mkdir -p dist && postcss --config postcss.config.js",
-    "minify": "postcss -u cssnano dist/ticketfly-css-base-settings-variables.css -o dist/ticketfly-css-base-settings-variables.min.css",
-    "build": "npm run clean && npm run transform",
-    "build:min": "npm run build && npm run minify",
-    "prepublish": "mkdir -p dist && npm run build"
-  },
   "bugs": {
     "url": "https://github.com/Ticketfly/ticketfly-css/issues"
   },
-  "keywords": [
-    "ticketfly css",
-    "base css",
-    "base css settings",
-    "base css variables",
-    "css"
-  ],
   "homepage": "https://github.com/Ticketfly/ticketfly-css/issues",
   "author": "Brian Sipple <@Brian_Sipple>",
   "license": "MIT",
   "devDependencies": {
     "cssnano": "^3.9.1",
     "del-cli": "^0.2.1",
-    "postcss-cli": "^2.6.0"
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.9.0"
+  },
+  "scripts": {
+    "clean": "del build/**",
+    "setup": "mkdir -p build",
+    "transform": "postcss --config postcss.config.js",
+    "minify": "postcss -u cssnano build/ticketfly-css-core-variables.css -o build/ticketfly-css-core-variables.min.css",
+    "build": "npm run transform",
+    "build:test": "npm run clean && postcss -u postcss-cssnext test/index-test.css -o build/test.css",
+    "build:min": "npm run build && npm run minify",
+    "prepublish": "npm run clean && npm run setup && npm run build",
+    "test": "npm run build:test"
   }
 }

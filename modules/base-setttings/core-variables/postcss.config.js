@@ -1,4 +1,8 @@
 module.exports = {
-  input: "index.css",
-  output: "dist/ticketfly-css-base-settings-variables.css"
+  input: 'index.css',
+  output: 'build/ticketfly-core-variables.css',
+
+  use: [
+    'postcss-cssnext'
+  ]
 };
