@@ -10,6 +10,21 @@
 
 _Ticketfly's CSS framework._
 
+
+## Installation
+
+Installing with `npm`:
+
+```bash
+npm install ticketfly-css
+```
+
+Installing with `yarn`:
+
+```bash
+yarn add ticketfly-css
+```
+
 ## Current Modules
 
 ### Normalize
@@ -45,6 +60,23 @@ See: [`ticketfly-css-grid`]()
 
 A system of grid utilities built with the CSS Grid Specification.
 
+
+## Developing
+
+If only want visibility on the top-level repo, simply clone it as-is:
+
+```bash
+git clone git@github.com:Ticketfly-UI/ticketfly-css.git
+```
+
+It's more likely, however, that you'll want to include the
+files from each submodule's repository within one parent
+directory on your machine. This can be done with a recursive clone
+of the project:
+
+```bash
+git clone --recursive git@github.com:Ticketfly-UI/ticketfly-css.git
+```
 
 
 [npm-badge]: https://img.shields.io/npm/v/ticketfly-css.svg
