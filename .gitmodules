@@ -1,0 +1,3 @@
+[submodule "modules/base-setttings/spacing-variables"]
+	path = modules/base-setttings/spacing-variables
+	url = git@github.com:Ticketfly-UI/ticketfly-css-spacing-variables.git
