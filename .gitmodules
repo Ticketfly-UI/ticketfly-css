@@ -13,3 +13,6 @@
 [submodule "modules/garnishes/reset"]
 	path = modules/garnishes/reset
 	url = git@github.com:Ticketfly-UI/ticketfly-css-reset-garnishes.git
+[submodule "modules/utilities/sizing"]
+	path = modules/utilities/sizing
+	url = git@github.com:Ticketfly-UI/ticketfly-css-sizing-utilities.git
