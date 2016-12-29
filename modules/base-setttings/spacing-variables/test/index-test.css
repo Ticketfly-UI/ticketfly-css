@@ -1,32 +1,66 @@
 @import "../index.css";
 
-
-.spacing-box-container {
-  margin: auto;
-  transform: translate3d(0, 50%, 0);
+html {
+  font-size: 100%;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.c-spacing-box {
-  background-color: orange;
-  height: 10rem;
+.main-heading {
+  text-align: center;
+}
+
+.demo-grid {
+  width: 60%;
+  min-width: calc(var(--spacing-xl) * 2);
+  margin: auto;
 
   display: flex;
   align-items: center;
+}
+
+.demo-grid .demo-grid__cell {
+  flex: 1;
+}
+
+.demo-grid-cell {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.c-spacing-box:nth-child(1) {
+.demo-grid-label,
+.demo-grid-box {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+}
+
+.demo-grid-label {
+  margin-right: var(--spacing-sm);
+  justify-content: flex-end;
+}
+
+.demo-grid-box {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+}
+
+.demo-grid-box.demo-grid-box--base {
+  width: var(--base-spacing-unit);
+}
+.demo-grid-box.demo-grid-box--xs {
   width: var(--spacing-xs);
 }
-.c-spacing-box:nth-child(2) {
+.demo-grid-box.demo-grid-box--sm {
   width: var(--spacing-sm);
 }
-.c-spacing-box:nth-child(3) {
+.demo-grid-box.demo-grid-box--md {
   width: var(--spacing-md);
 }
-.c-spacing-box:nth-child(4) {
+.demo-grid-box.demo-grid-box--lg {
   width: var(--spacing-lg);
 }
-.c-spacing-box:nth-child(5) {
+.demo-grid-box.demo-grid-box--xl {
   width: var(--spacing-xl);
 }

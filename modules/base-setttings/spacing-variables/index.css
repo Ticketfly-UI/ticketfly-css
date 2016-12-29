@@ -18,10 +18,7 @@
    */
 
   /* 1 */
-  --spacing-sm: calc(
-    var(--base-spacing-unit) *
-    var(--common-ratio)
-  );
+  --spacing-sm: calc(var(--base-spacing-unit));
 
   /* 2 */
   --spacing-xs: calc(
