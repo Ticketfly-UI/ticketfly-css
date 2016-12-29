@@ -1,6 +1,6 @@
 {
   "name": "ticketfly-css-spacing-variables",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Variables for the Ticketfly CSS spacing system",
   "main": "index.css",
   "style": "index.css",
