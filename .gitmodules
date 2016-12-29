@@ -7,3 +7,6 @@
 [submodule "modules/utilities/overflow"]
 	path = modules/utilities/overflow
 	url = git@github.com:Ticketfly-UI/ticketfly-css-overflow-utilities.git
+[submodule "modules/normalize"]
+	path = modules/normalize
+	url = git@github.com:Ticketfly-UI/ticketfly-css-normalize.git
