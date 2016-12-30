@@ -1,8 +1,17 @@
-# 0.0.3 &mdash; December 19, 2016
+# 0.0.4 &mdash; December 29, 2016
 
-- **[CHANGE]** Switch from `ticketfly-css-overflow` (deprecated) to
+- **[ADDED]** Added new `ticketfly-css` packages ([#10](https://github.com/Ticketfly-UI/ticketfly-css/pull/10)).
+  + `ticketfly-css-reset-garnishes`
+  + `ticketfly-css-sizing-utilities`
+  + `ticketfly-css-spacing-utilities`
+  + `ticketfly-css-spacing-variables`
+
+
+# 0.0.3 &mdash; December 28, 2016
+
+- **[CHANGED]** Switch from `ticketfly-css-overflow` (deprecated) to
 `ticketfly-css-overflow-utilities` ([#9](https://github.com/Ticketfly-UI/ticketfly-css/pull/9)).
-- **[PATCH]** Fix tests to use correct dependencies. ([#9](https://github.com/Ticketfly-UI/ticketfly-css/pull/9)).
+- **[PATCHED]** Fix tests to use correct dependencies. ([#9](https://github.com/Ticketfly-UI/ticketfly-css/pull/9)).
 - **[ENHANCEMENT]** Improve configuration of `package.json` ([#9](https://github.com/Ticketfly-UI/ticketfly-css/pull/9)).
 
 
