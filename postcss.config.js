@@ -30,10 +30,7 @@ module.exports = {
     configFile: './stylelint.config.js',
     configOverrides: {
       ignoreFiles: '**/ticketfly-css-normalize/**'
-    },
-    plugins: [
-      'stylelint'
-    ]
+    }
   },
 
   'postcss-reporter': {
