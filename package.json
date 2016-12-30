@@ -34,13 +34,19 @@
   },
   "dependencies": {
     "cssnano": "^3.9.1",
+    "ticketfly-css-box-objects": "^0.0.1",
     "ticketfly-css-core-variables": "^0.0.1",
+    "ticketfly-css-display-utilities": "^0.0.1",
+    "ticketfly-css-flex-utilities": "^0.0.1",
     "ticketfly-css-normalize": "^0.0.4",
     "ticketfly-css-overflow-utilities": "^0.0.1",
     "ticketfly-css-reset-garnishes": "^0.0.1",
     "ticketfly-css-sizing-utilities": "^0.0.1",
     "ticketfly-css-spacing-utilities": "^0.0.2",
-    "ticketfly-css-spacing-variables": "^0.0.5"
+    "ticketfly-css-spacing-variables": "^0.0.5",
+    "ticketfly-css-tap-target-objects": "^0.0.1",
+    "ticketfly-css-text-utilities": "^0.0.1",
+    "ticketfly-css-z-index-utilities": "^0.0.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
