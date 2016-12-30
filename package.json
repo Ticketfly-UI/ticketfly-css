@@ -2,7 +2,7 @@
   "name": "ticketfly-css",
   "version": "0.0.8",
   "description": "Ticketfly's CSS framework",
-  "main": "src/index.css",
+  "main": "index.js",
   "style": "src/index.css",
   "keywords": [
     "css",
@@ -20,6 +20,12 @@
     "type": "git"
   },
   "files": [
+    "addon/",
+    "app/",
+    "CHANGELOG.md",
+    "config/environment.js",
+    "index.js",
+    "LICENSE",
     "src/index.css"
   ],
   "bugs": {
