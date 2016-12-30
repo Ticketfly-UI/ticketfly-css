@@ -3509,13 +3509,33 @@ ticketfly-css-core-variables@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/ticketfly-css-core-variables/-/ticketfly-css-core-variables-0.0.1.tgz#8dc6fb554ef80f5740c64037551e599f903008fe"
 
-ticketfly-css-normalize@0.0.4:
+ticketfly-css-normalize@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/ticketfly-css-normalize/-/ticketfly-css-normalize-0.0.4.tgz#3e17d96fa45b926d0b6d23a83931bd7c4c0f1849"
 
 ticketfly-css-overflow-utilities@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/ticketfly-css-overflow-utilities/-/ticketfly-css-overflow-utilities-0.0.1.tgz#0d4d246413532f4d5b73d17e4f6e580799836569"
+
+ticketfly-css-reset-garnishes@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/ticketfly-css-reset-garnishes/-/ticketfly-css-reset-garnishes-0.0.1.tgz#c47561ba847d4c9f3c86e9300870ab69c70f09d3"
+
+ticketfly-css-sizing-utilities@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/ticketfly-css-sizing-utilities/-/ticketfly-css-sizing-utilities-0.0.1.tgz#0df8a62766360e418ac39b800859d51cc5054336"
+
+ticketfly-css-spacing-utilities@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/ticketfly-css-spacing-utilities/-/ticketfly-css-spacing-utilities-0.0.2.tgz#e512f12d963200a65ed2c3bd4f3c7b524e2272cd"
+  dependencies:
+    ticketfly-css-spacing-variables "^0.0.5"
+
+ticketfly-css-spacing-variables@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/ticketfly-css-spacing-variables/-/ticketfly-css-spacing-variables-0.0.5.tgz#bf55ab4804009d7e6c84967bbad5587be6795cc9"
+  dependencies:
+    ticketfly-css-core-variables "^0.0.1"
 
 timed-out@^3.0.0:
   version "3.0.0"
