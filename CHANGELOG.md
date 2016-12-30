@@ -1,3 +1,14 @@
+# 0.0.5 &mdash; December 30, 2016
+
+- **[ADDED]** Added new `ticketfly-css` packages ([#10](https://github.com/Ticketfly-UI/ticketfly-css/pull/10)).
+  + `ticketfly-css-box-objects`
+  + `ticketfly-css-display-utilities`
+  + `ticketfly-css-flex-utilities`
+  + `ticketfly-css-tap-target-objects`
+  + `ticketfly-css-text-utilities`
+  + `ticketfly-css-z-index-utilities`
+
+
 # 0.0.4 &mdash; December 29, 2016
 
 - **[ADDED]** Added new `ticketfly-css` packages ([#10](https://github.com/Ticketfly-UI/ticketfly-css/pull/10)).
