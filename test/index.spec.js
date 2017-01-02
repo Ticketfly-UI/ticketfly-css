@@ -2,10 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const cssStats = require('cssstats');
 const postcss = require('postcss');
-const postcssImport = require('postcss-import');
-const postcssCustomMedia = require('postcss-custom-media');
-const postcssCustomProperties = require('postcss-custom-properties');
-const postcssCalc = require('postcss-calc');
+const cssImport = require('postcss-import');
+const cssNext = require('postcss-cssnext');
 const { expect } = require('chai');
 
 const srcCSSPath = path.join(__dirname, '../src/index.css');
@@ -23,10 +21,8 @@ function generateStats(opts = {}) {
 describe('Ticketfly CSS', () => {
   it('successfully compiles', () => {
     return postcss([
-      postcssImport,
-      postcssCustomMedia,
-      postcssCustomProperties,
-      postcssCalc
+      cssImport,
+      cssNext
     ])
     .process(srcCSS)
     .then(result => {
