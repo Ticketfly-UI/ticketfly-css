@@ -16,11 +16,9 @@ module.exports = {
   use: [
     'stylelint',
     'postcss-import',
-    'autoprefixer',
+    'postcss-cssnext',
     'cssstats',
-    'postcss-custom-media',
     'postcss-custom-properties',
-    'postcss-calc',
     'postcss-discard-comments',
     'postcss-remove-root',
     'postcss-reporter'
