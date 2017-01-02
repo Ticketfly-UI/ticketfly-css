@@ -1,3 +1,12 @@
+# 0.0.6 &mdash; January 2, 2016
+
+- **[ADDED]** Added new `ticketfly-css` packages ([#11](https://github.com/Ticketfly-UI/ticketfly-css/pull/11)).
+ + `ticketfly-css-box-shadow-garnishes`
+ + `ticketfly-css-box-shadow-variables`
+ + `ticketfly-css-color-garnishes`
+ + `ticketfly-css-color-variables`
+
+
 # 0.0.5 &mdash; December 30, 2016
 
 - **[ADDED]** Added new `ticketfly-css` packages ([#10](https://github.com/Ticketfly-UI/ticketfly-css/pull/10)).
