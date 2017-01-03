@@ -4,15 +4,48 @@
 [submodule "modules/base-setttings/core-variables"]
 	path = modules/base-setttings/core-variables
 	url = git@github.com:Ticketfly-UI/ticketfly-css-core-variables.git
-[submodule "modules/utilities/overflow"]
-	path = modules/utilities/overflow
-	url = git@github.com:Ticketfly-UI/ticketfly-css-overflow-utilities.git
-[submodule "modules/normalize"]
-	path = modules/normalize
-	url = git@github.com:Ticketfly-UI/ticketfly-css-normalize.git
+[submodule "modules/base-setttings/box-shadow-variables"]
+	path = modules/base-setttings/box-shadow-variables
+	url = git@github.com:Ticketfly-UI/ticketfly-css-box-shadow-variables.git
+[submodule "modules/base-setttings/color-variables"]
+	path = modules/base-setttings/color-variables
+	url = git@github.com:Ticketfly-UI/ticketfly-css-color-variables.git
+[submodule "modules/garnishes/box-shadow"]
+	path = modules/garnishes/box-shadow
+	url = git@github.com:Ticketfly-UI/ticketfly-css-box-shadow-garnishes.git
+[submodule "modules/garnishes/color"]
+	path = modules/garnishes/color
+	url = git@github.com:Ticketfly-UI/ticketfly-css-color-garnishes.git
 [submodule "modules/garnishes/reset"]
 	path = modules/garnishes/reset
 	url = git@github.com:Ticketfly-UI/ticketfly-css-reset-garnishes.git
+[submodule "modules/object-patterns/boxes"]
+	path = modules/object-patterns/boxes
+	url = git@github.com:Ticketfly-UI/ticketfly-css-box-objects.git
+[submodule "modules/object-patterns/tap-targets"]
+	path = modules/object-patterns/tap-targets
+	url = git@github.com:Ticketfly-UI/ticketfly-css-tap-target-objects.git
+[submodule "modules/normalize"]
+	path = modules/normalize
+	url = git@github.com:Ticketfly-UI/ticketfly-css-normalize.git
+[submodule "modules/utilities/display"]
+	path = modules/utilities/display
+	url = git@github.com:Ticketfly-UI/ticketfly-css-display-utilities.git
+[submodule "modules/utilities/flex"]
+	path = modules/utilities/flex
+	url = git@github.com:Ticketfly-UI/ticketfly-css-flex-utilities.git
+[submodule "modules/utilities/spacing"]
+	path = modules/utilities/spacing
+	url = git@github.com:Ticketfly-UI/ticketfly-css-spacing-utilities.git
+[submodule "modules/utilities/text"]
+	path = modules/utilities/text
+	url = git@github.com:Ticketfly-UI/ticketfly-css-text-utilities.git
+[submodule "modules/utilities/z-index"]
+	path = modules/utilities/z-index
+	url = git@github.com:Ticketfly-UI/ticketfly-css-z-index-utilities.git
+[submodule "modules/utilities/overflow"]
+	path = modules/utilities/overflow
+	url = git@github.com:Ticketfly-UI/ticketfly-css-overflow-utilities.git
 [submodule "modules/utilities/sizing"]
 	path = modules/utilities/sizing
 	url = git@github.com:Ticketfly-UI/ticketfly-css-sizing-utilities.git
