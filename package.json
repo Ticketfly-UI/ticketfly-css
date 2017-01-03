@@ -22,6 +22,7 @@
   "files": [
     "addon/",
     "app/",
+    "build/",
     "CHANGELOG.md",
     "config/environment.js",
     "index.js",
