@@ -16,7 +16,14 @@ module.exports = {
 
     return [
       { module: cssImport },
-      { module: cssNext }
+      {
+        module: cssNext,
+        options: {
+          features: {
+            customProperties: { preserve: true }  // 📋 TODO: Make this (along with a lot of other things) dynamic and configurable
+          }
+        }
+      }
     ];
   },
 
@@ -35,7 +42,7 @@ module.exports = {
   },
 
   shouldImportStyles() {
-    return !this.isAddon() || this.isDevelopingAddon();
+    return !this.isAddon() || this.isDummyApp();
   },
 
   importStyles() {
@@ -59,11 +66,10 @@ module.exports = {
   },
 
   treeForVendor(node) {
-    debugger;
     if (!this.shouldImportStyles()) {
       return node;
     }
-    debugger;
+
     const path = require('path');
     const Funnel = require('broccoli-funnel');
     const mergeTrees = require('broccoli-merge-trees');

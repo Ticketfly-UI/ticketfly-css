@@ -1,9 +1,11 @@
-@import "ticketfly-css-box-objects";
-@import "ticketfly-css-box-shadow-garnishes";
+@import "ticketfly-css-core-variables";
 @import "ticketfly-css-box-shadow-variables";
-@import "ticketfly-css-color-garnishes";
 @import "ticketfly-css-color-variables";
 @import "ticketfly-css-core-variables";
+@import "ticketfly-css-spacing-variables";
+@import "ticketfly-css-box-objects";
+@import "ticketfly-css-box-shadow-garnishes";
+@import "ticketfly-css-color-garnishes";
 @import "ticketfly-css-display-utilities";
 @import "ticketfly-css-flex-utilities";
 @import "ticketfly-css-grid-objects";
@@ -12,7 +14,6 @@
 @import "ticketfly-css-reset-garnishes";
 @import "ticketfly-css-sizing-utilities";
 @import "ticketfly-css-spacing-utilities";
-@import "ticketfly-css-spacing-variables";
 @import "ticketfly-css-tap-target-objects";
 @import "ticketfly-css-text-utilities";
 @import "ticketfly-css-z-index-utilities";
