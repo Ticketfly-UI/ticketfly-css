@@ -22,6 +22,9 @@
 [submodule "modules/object-patterns/boxes"]
 	path = modules/object-patterns/boxes
 	url = git@github.com:Ticketfly-UI/ticketfly-css-box-objects.git
+[submodule "modules/object-patterns/grid"]
+	path = modules/object-patterns/grid
+	url = git@github.com:Ticketfly-UI/ticketfly-css-grid-objects.git
 [submodule "modules/object-patterns/tap-targets"]
 	path = modules/object-patterns/tap-targets
 	url = git@github.com:Ticketfly-UI/ticketfly-css-tap-target-objects.git
