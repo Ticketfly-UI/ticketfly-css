@@ -3808,6 +3808,12 @@ ticketfly-css-flex-utilities@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/ticketfly-css-flex-utilities/-/ticketfly-css-flex-utilities-0.0.1.tgz#125150dab7f0dbf3f46a4aaa349587e68f14c817"
 
+ticketfly-css-grid-objects@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/ticketfly-css-grid-objects/-/ticketfly-css-grid-objects-0.0.1.tgz#38587e74894318042488ce8d247617cee9020167"
+  dependencies:
+    ticketfly-css-spacing-variables "^0.0.5"
+
 ticketfly-css-normalize@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/ticketfly-css-normalize/-/ticketfly-css-normalize-0.0.4.tgz#3e17d96fa45b926d0b6d23a83931bd7c4c0f1849"
