@@ -19,8 +19,6 @@
     "type": "git"
   },
   "files": [
-    "CHANGELOG.md",
-    "LICENSE",
     "src/index.css"
   ],
   "bugs": {
