@@ -6,6 +6,7 @@
 @import "ticketfly-css-core-variables";
 @import "ticketfly-css-display-utilities";
 @import "ticketfly-css-flex-utilities";
+@import "ticketfly-css-grid-objects";
 @import "ticketfly-css-normalize";
 @import "ticketfly-css-overflow-utilities";
 @import "ticketfly-css-reset-garnishes";
