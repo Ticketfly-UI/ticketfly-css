@@ -1,3 +1,8 @@
+# 0.1.0 &mdash; January 8, 2017
+
+- **[FEATURE]** Architect project as an Ember addon ([#13](https://github.com/Ticketfly-UI/ticketfly-css/pull/13)).
+
+
 # 0.0.8 &mdash; January 8, 2017
 
 - **[ENHANCEMENT]** Upgrade to `ticketfly-css-grid-objects@0.0.2`.
@@ -5,13 +10,13 @@
 
 # 0.0.7 &mdash; January 8, 2017
 
-- **[ADDED]** Added new `ticketfly-css` packages ([#12](https://github.com/Ticketfly-UI/ticketfly-css/pull/12)).
+- **[ENHANCEMENT]** Added new `ticketfly-css` packages ([#12](https://github.com/Ticketfly-UI/ticketfly-css/pull/12)).
  + `ticketfly-css-grid-objects`
 
 
 # 0.0.6 &mdash; January 2, 2017
 
-- **[ADDED]** Added new `ticketfly-css` packages ([#11](https://github.com/Ticketfly-UI/ticketfly-css/pull/11)).
+- **[ENHANCEMENT]** Added new `ticketfly-css` packages ([#11](https://github.com/Ticketfly-UI/ticketfly-css/pull/11)).
  + `ticketfly-css-box-shadow-garnishes`
  + `ticketfly-css-box-shadow-variables`
  + `ticketfly-css-color-garnishes`
@@ -20,7 +25,7 @@
 
 # 0.0.5 &mdash; December 30, 2016
 
-- **[ADDED]** Added new `ticketfly-css` packages ([#10](https://github.com/Ticketfly-UI/ticketfly-css/pull/10)).
+- **[ENHANCEMENT]** Added new `ticketfly-css` packages ([#10](https://github.com/Ticketfly-UI/ticketfly-css/pull/10)).
   + `ticketfly-css-box-objects`
   + `ticketfly-css-display-utilities`
   + `ticketfly-css-flex-utilities`
@@ -31,7 +36,7 @@
 
 # 0.0.4 &mdash; December 29, 2016
 
-- **[ADDED]** Added new `ticketfly-css` packages ([#10](https://github.com/Ticketfly-UI/ticketfly-css/pull/10)).
+- **[ENHANCEMENT]** Added new `ticketfly-css` packages ([#10](https://github.com/Ticketfly-UI/ticketfly-css/pull/10)).
   + `ticketfly-css-reset-garnishes`
   + `ticketfly-css-sizing-utilities`
   + `ticketfly-css-spacing-utilities`
