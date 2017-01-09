@@ -3,12 +3,16 @@
 # compiled output
 /dist
 /build
+/tmp
 
 # dependencies
 /node_modules
 /bower_components
 
 # misc
+/connect.lock
 /coverage/*
+/libpeerconnection.log
 npm-debug.log*
 yarn-error.log*
+testem.log

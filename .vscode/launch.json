@@ -7,10 +7,30 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Test",
+      "name": "Launch Dummy App",
+      "program": "${workspaceRoot}/node_modules/.bin/ember",
+      "cwd": "${workspaceRoot}",
+      "args": [
+        "serve"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Ember Tests",
+      "program": "${workspaceRoot}/node_modules/.bin/ember",
+      "cwd": "${workspaceRoot}",
+      "args": [
+        "test"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Node Tests",
       "program": "${workspaceRoot}/node_modules/.bin/_mocha",
       "args": [
-        "./test/**/*.spec.js"
+        "./node-tests/**/*-test.js"
       ],
       "cwd": "${workspaceRoot}"
     },

@@ -18,21 +18,27 @@ module.exports = {
     'postcss-import',
     'postcss-cssnext',
     'cssstats',
-    'postcss-custom-properties',
     'postcss-discard-comments',
-    'postcss-remove-root',
     'postcss-reporter'
   ],
 
-  stylelint: {
-    configFile: './stylelint.config.js',
-    configOverrides: {
-      ignoreFiles: '**/ticketfly-css-normalize/**'
+  'postcss-cssnext': {
+    features: {
+      customProperties: {
+        preserve: true
+      }
     }
   },
 
   'postcss-reporter': {
     clearAllMessages: true,
     throwError: true
+  },
+
+  stylelint: {
+    configFile: './stylelint.config.js',
+    configOverrides: {
+      ignoreFiles: '**/ticketfly-css-normalize/**'
+    }
   }
 };
