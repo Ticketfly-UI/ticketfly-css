@@ -40,7 +40,7 @@
     "ticketfly-css-core-variables": "^0.0.1",
     "ticketfly-css-display-utilities": "^0.0.1",
     "ticketfly-css-flex-utilities": "^0.0.1",
-    "ticketfly-css-grid-objects": "^0.0.1",
+    "ticketfly-css-grid-objects": "^0.0.2",
     "ticketfly-css-normalize": "^0.0.4",
     "ticketfly-css-overflow-utilities": "^0.0.1",
     "ticketfly-css-reset-garnishes": "^0.0.1",
