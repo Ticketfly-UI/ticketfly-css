@@ -13,6 +13,12 @@ _Ticketfly's CSS framework._
 
 ## Installation
 
+Installing as an Ember addon:
+
+```bash
+ember install ticketfly-css
+
+```
 Installing with `npm`:
 
 ```bash
@@ -71,7 +77,12 @@ yarn add ticketfly-css
 
 ## Developing
 
-If only want visibility on the top-level repo, simply clone it as-is:
+In addition to providing functionality as both an Ember addon and a standard Node package
+consumable through package managers such as NPM or Yarn, this project contains a `modules`
+directory consisting of the [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+that comprise Ticketfly CSS.
+
+If you only want visibility on the top-level repo, simply clone it as-is:
 
 ```bash
 git clone git@github.com:Ticketfly-UI/ticketfly-css.git
