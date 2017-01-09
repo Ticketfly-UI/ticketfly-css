@@ -1,3 +1,8 @@
+# 0.0.8 &mdash; January 8, 2017
+
+- **[ENHANCEMENT]** Upgrade to `ticketfly-css-grid-objects@0.0.2`.
+
+
 # 0.0.7 &mdash; January 8, 2017
 
 - **[ADDED]** Added new `ticketfly-css` packages ([#12](https://github.com/Ticketfly-UI/ticketfly-css/pull/12)).
