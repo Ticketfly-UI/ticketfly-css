@@ -27,39 +27,47 @@ yarn add ticketfly-css
 
 ## Current Modules
 
-### Normalize
+- [ticketfly-css-normalize](https://github.com/Ticketfly-UI/ticketfly-css-normalize)
 
 ### Base Settings
-#### Animation Variables
 
-#### Spacing Variables
-
-#### Core Variables
+- [ticketfly-css-core-variables](https://github.com/Ticketfly-UI/ticketfly-css-core-variables)
+- [ticketfly-css-box-shadow-variables](https://github.com/Ticketfly-UI/ticketfly-css-box-shadow-variables)
+- [ticketfly-css-color-variables](https://github.com/Ticketfly-UI/ticketfly-css-color-variables)
+- [ticketfly-css-spacing-variables](https://github.com/Ticketfly-UI/ticketfly-css-spacing-variables)
 
 ### Utilities
-#### Margin
 
-#### Padding
+- [ticketfly-css-display-utilities](https://github.com/Ticketfly-UI/ticketfly-css-display-utilities)
+- [ticketfly-css-flex-utilities](https://github.com/Ticketfly-UI/ticketfly-css-flex-utilities)
+- [ticketfly-css-overflow-utilities](https://github.com/Ticketfly-UI/ticketfly-css-overflow-utilities)
+- [ticketfly-css-sizing-utilities](https://github.com/Ticketfly-UI/ticketfly-css-sizing-utilities)
+- [ticketfly-css-spacing-utilities](https://github.com/Ticketfly-UI/ticketfly-css-spacing-utilities)
+- [ticketfly-css-text-utilities](https://github.com/Ticketfly-UI/ticketfly-css-text-utilities)
+- [ticketfly-css-z-index-utilities](https://github.com/Ticketfly-UI/ticketfly-css-z-index-utilities)
 
-#### Overflow
-
-#### Alignment
-
-#### Sizing
 
 ### Object Patterns
-#### Grid
-A system of grid utilities built with Flexbox.
 
-See: [`ticketfly-css-grid`]()
+- [ticketfly-css-box-objects](https://github.com/Ticketfly-UI/ticketfly-css-box-objects)
+- [ticketfly-css-grid-objects](https://github.com/Ticketfly-UI/ticketfly-css-grid-objects)
+- [ticketfly-css-tap-target-objects](https://github.com/Ticketfly-UI/ticketfly-css-tap-target-objects)
 
 
-## In Progress
+### Garnishes
 
-### Grid V2
+- [ticketfly-css-box-shadow-garnishes](https://github.com/Ticketfly-UI/ticketfly-css-box-shadow-garnishes)
+- [ticketfly-css-color-garnishes](https://github.com/Ticketfly-UI/ticketfly-css-color-garnishes)
+- [ticketfly-css-reset-garnishes](https://github.com/Ticketfly-UI/ticketfly-css-reset-garnishes)
 
-A system of grid utilities built with the CSS Grid Specification.
 
+## Future and In-Progress Modules
+
+- ticketfly-css-animation-variables
+- ticketfly-css-grid-objects **(V2)**
+  + A system of grid utilities built with the [CSS Grid Layout Module](https://www.w3.org/TR/css-grid-1/)
+
+[Also, see this issue for more context](https://github.com/Ticketfly-UI/ticketfly-css/issues/1)
 
 ## Developing
 
