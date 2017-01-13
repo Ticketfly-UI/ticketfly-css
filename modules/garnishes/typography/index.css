@@ -1,0 +1,62 @@
+/**
+ * TICKETFLY CSS TYPOGRAPHY GARNISHES
+ */
+
+@import "ticketfly-css-typography-variables";
+
+/* -------------- Font-weight garnishes -------------- */
+
+.g-font-bolder { font-weight: bolder !important; }
+.g-font-lighter { font-weight: lighter !important; }
+
+.g-font-bold { font-weight: var(--font-weight__bold, bold) !important; }
+.g-font-normal { font-weight: normal !important; }
+.g-font-italic { font-weight: italic !important; }
+
+.g-font-100 { font-weight: 100 !important; }
+.g-font-200 { font-weight: 200 !important; }
+.g-font-300 { font-weight: 300 !important; }
+.g-font-400 { font-weight: 400 !important; }
+.g-font-500 { font-weight: 500 !important; }
+.g-font-600 { font-weight: 600 !important; }
+.g-font-700 { font-weight: 700 !important; }
+.g-font-800 { font-weight: 800 !important; }
+.g-font-900 { font-weight: 900 !important; }
+
+
+/* -------------- Garnishes for inline size tweaks -------------- */
+
+.g-font-smaller { font-size: smaller !important; }
+.g-font-larger { font-size: larger !important; }
+
+
+/* -------------- Garnishes for case adjustments -------------- */
+
+.g-capitalize { text-transform: capitalize !important; }
+.g-lowercase { text-transform: lowercase !important; }
+
+.g-uppercase {
+  text-transform: uppercase !important;
+  letter-spacing: var(--letter-spacing__uppercase) !important;
+}
+
+/**
+ * There are serveral different definitions of "small caps",
+ * and several different ways to implement each.
+ * (@see: https://css-tricks.com/almanac/properties/f/font-variant/)
+ *
+ * This is what we'll start with.
+ */
+.g-small-caps {
+  font-size: 0.666em !important;
+  text-transform: uppercase !important;
+  letter-spacing: var(--letter-spacing__uppercase) !important;
+}
+
+
+/* -------------- Text decoration garnishes -------------- */
+
+.g-underline { text-decoration: underline !important; }
+.g-no-line { text-decoration: none !important; }
+.g-strikethrough { text-decoration: line-through !important; }
+
