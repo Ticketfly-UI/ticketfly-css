@@ -1,3 +1,12 @@
+# 0.2.0 &mdash; January 13, 2017
+
+- **[BREAKING CHANGE]** Add and update `ticketfly-css` packages ([#11](https://github.com/Ticketfly-UI/ticketfly-css/pull/11)).
+  + Update `ticketfly-css-normalize`: `^0.0.4` --> `^0.1.0`
+  + Update `ticketfly-css-reset-garnishes`: `^0.0.1` --> `^0.1.1`
+  + Add `ticketfly-css-typography-garnishes` @ `^0.1.0`
+  + Add `ticketfly-css-typography-variable` @ `^0.2.0`
+
+
 # 0.1.0 &mdash; January 8, 2017
 
 - **[FEATURE]** Architect project as an Ember addon ([#13](https://github.com/Ticketfly-UI/ticketfly-css/pull/13)).
