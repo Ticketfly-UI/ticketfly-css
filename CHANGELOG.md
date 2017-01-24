@@ -1,3 +1,8 @@
+# 0.3.0 &mdash; January 23, 2017
+
+- **[BREAKING CHANGE]** Update `ticketfly-css-reset-garnishes`: `^0.1.1` --> `^0.2.0`
+
+
 # 0.2.0 &mdash; January 13, 2017
 
 - **[BREAKING CHANGE]** Add and update `ticketfly-css` packages ([#11](https://github.com/Ticketfly-UI/ticketfly-css/pull/11)).
