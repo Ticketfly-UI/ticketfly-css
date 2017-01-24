@@ -13,7 +13,7 @@ module.exports = {
 
   normalizeEntityName: function() {},
 
-  afterInstall: function(options) {
+  beforeInstall: function(options) {
     return this.addPackagesToProject(postCSSCompilingPackages);
   }
 
