@@ -1,0 +1,177 @@
+<section class="u-fill p-grid-objects">
+
+  <header class="u-mb-lg">
+    <h1 class="u-text-center">Ticketfly CSS Grid Objects</h1>
+  </header>
+
+  <article class="o-box o-box--inset-lg">
+    <section class="u-mb-lg">
+
+      <header class="u-mb-md">
+        <h2>Default layout</h2>
+        <p>Auto-width Cells</p>
+      </header>
+
+      <section class="u-mb-sm o-box o-box--inset-md">
+        <div class="o-grid c-grid">
+          {{grid-cell title="No columns were assigned"}}
+          {{grid-cell title="None here, either"}}
+        </div>
+      </section>
+
+    </section>
+
+    <section class="u-mb-lg">
+
+      <header class="u-mb-md">
+        <h2>Fitting to the 12-column grid</h2>
+        <p>Specifying column spans for each cell</p>
+      </header>
+
+      <section class="u-mb-sm o-box o-box--inset-md">
+        <div class="o-grid c-grid">
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+        </div>
+      </section>
+
+      <section class="u-mb-sm o-box o-box--inset-md">
+        <div class="o-grid c-grid">
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+        </div>
+      </section>
+
+      <section class="u-mb-sm o-box o-box--inset-md">
+        <div class="o-grid c-grid">
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-1" title="😈"}}
+        </div>
+      </section>
+
+      <section class="u-mb-sm o-box o-box--inset-md">
+        <div class="o-grid c-grid">
+          {{grid-cell class="o-grid-cell-2" title="2"}}
+          {{grid-cell class="o-grid-cell-5" title="5"}}
+          {{grid-cell class="o-grid-cell-3" title="3"}}
+          {{grid-cell class="o-grid-cell-2" title="2"}}
+        </div>
+      </section>
+
+      <section class="u-mb-sm o-box o-box--inset-md">
+        <div class="o-grid c-grid">
+          {{grid-cell class="o-grid-cell-10" title="10"}}
+          {{grid-cell class="o-grid-cell-2" title="2"}}
+        </div>
+      </section>
+    </section>
+
+    <section class="u-mb-lg">
+
+      <header class="u-mb-md">
+        <h2>Main Axis Distribution</h2>
+      </header>
+
+      <h3>Justify Center</h3>
+      <section class="u-mb-sm o-box o-box--inset-md">
+        <div class="o-grid o-grid--align-center c-grid">
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-2" title="2"}}
+          {{grid-cell class="o-grid-cell-2" title="2"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+        </div>
+      </section>
+
+      <h3>Space Between</h3>
+      <section class="u-mb-sm o-box o-box--inset-md">
+        <div class="o-grid o-grid--space-between c-grid">
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-2" title="2"}}
+          {{grid-cell class="o-grid-cell-2" title="2"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+        </div>
+      </section>
+
+      <h3>Space Around</h3>
+      <section class="u-mb-sm o-box o-box--inset-md">
+        <div class="o-grid o-grid--space-around c-grid">
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+          {{grid-cell class="o-grid-cell-2" title="2"}}
+          {{grid-cell class="o-grid-cell-2" title="2"}}
+          {{grid-cell class="o-grid-cell-1" title="1"}}
+        </div>
+      </section>
+
+    </section>
+
+    <section class="u-mb-lg">
+
+      <header class="u-mb-md">
+        <h2>Cross Axis Distribution</h2>
+      </header>
+
+      <h3>Align Middle</h3>
+      <section class="u-mb-sm o-box o-box--inset-md">
+        <div class="o-grid o-grid--align-middle c-grid c-grid--tall">
+          {{grid-cell class="o-grid-cell-12" title="12"}}
+        </div>
+      </section>
+
+      <h3>Align Top</h3>
+      <section class="u-mb-sm o-box o-box--inset-md">
+        <div class="o-grid o-grid--align-top c-grid c-grid--tall">
+          {{grid-cell class="o-grid-cell-12" title="12"}}
+        </div>
+      </section>
+
+      <h3>Align Bottom</h3>
+      <section class="u-mb-sm o-box o-box--inset-md">
+        <div class="o-grid o-grid--align-bottom c-grid c-grid--tall">
+          {{grid-cell class="o-grid-cell-12" title="12"}}
+        </div>
+      </section>
+
+    </section>
+
+    <section class="u-mb-lg">
+
+      <header class="u-mb-md">
+        <h2>Going Vertical & Nesting</h2>
+      </header>
+
+    </section>
+
+    <section class="u-mb-lg">
+
+      <header class="u-mb-md">
+        <h2>Spacing</h2>
+      </header>
+
+      <h3>Margins</h3>
+
+      <h3>Gutters</h3>
+    </section>
+
+  </article>
+</section>
