@@ -7,6 +7,11 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('modules', function() {
+    this.route('object-patterns', function() {
+      this.route('grid');
+    });
+  });
 });
 
 export default Router;
