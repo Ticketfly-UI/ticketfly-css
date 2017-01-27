@@ -41,7 +41,7 @@
     "node": ">=6.x"
   },
   "dependencies": {
-    "ticketfly-css-box-objects": "^0.0.1",
+    "ticketfly-css-box-objects": "^0.1.0",
     "ticketfly-css-box-shadow-garnishes": "^0.0.1",
     "ticketfly-css-box-shadow-variables": "^0.0.2",
     "ticketfly-css-color-garnishes": "^0.0.1",
