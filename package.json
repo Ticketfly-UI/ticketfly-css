@@ -57,6 +57,7 @@
     "ticketfly-css-grid-objects": "^0.0.2",
     "ticketfly-css-normalize": "^0.1.0",
     "ticketfly-css-overflow-utilities": "^0.0.1",
+    "ticketfly-css-position-utilities": "^0.1.0",
     "ticketfly-css-reset-garnishes": "^0.2.0",
     "ticketfly-css-sizing-utilities": "^0.0.1",
     "ticketfly-css-spacing-utilities": "^0.0.2",
@@ -65,6 +66,7 @@
     "ticketfly-css-text-utilities": "^0.0.1",
     "ticketfly-css-typography-garnishes": "^0.1.0",
     "ticketfly-css-typography-variables": "^0.2.0",
+    "ticketfly-css-v-align-utilities": "^0.1.0",
     "ticketfly-css-z-index-utilities": "^0.0.1"
   },
   "devDependencies": {
