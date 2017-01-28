@@ -1,6 +1,11 @@
+# 0.3.3 &mdash; January 27, 2017
+
+- **[PATCH]** Use `package.json` instead of blueprint install for index.js dependencies
+([#28](https://github.com/Ticketfly-UI/ticketfly-css/pull/28)).
+
 # 0.3.2 &mdash; January 27, 2017
 
-- **[PATCHED]** Add packages to consuming projects during the blueprint's `beforeInstall` hook &mdash;
+- **[PATCH]** Add packages to consuming projects during the blueprint's `beforeInstall` hook &mdash;
 instead of `afterInstall` ([#25](https://github.com/Ticketfly-UI/ticketfly-css/pull/25)).
 
 
@@ -72,7 +77,7 @@ instead of `afterInstall` ([#25](https://github.com/Ticketfly-UI/ticketfly-css/p
 
 - **[CHANGED]** Switch from `ticketfly-css-overflow` (deprecated) to
 `ticketfly-css-overflow-utilities` ([#9](https://github.com/Ticketfly-UI/ticketfly-css/pull/9)).
-- **[PATCHED]** Fix tests to use correct dependencies. ([#9](https://github.com/Ticketfly-UI/ticketfly-css/pull/9)).
+- **[PATCH]** Fix tests to use correct dependencies. ([#9](https://github.com/Ticketfly-UI/ticketfly-css/pull/9)).
 - **[ENHANCEMENT]** Improve configuration of `package.json` ([#9](https://github.com/Ticketfly-UI/ticketfly-css/pull/9)).
 
 
