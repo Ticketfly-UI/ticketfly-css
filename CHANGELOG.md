@@ -1,7 +1,15 @@
+# 0.4.0 &mdash; January 27, 2017
+
+- **[ADDITION]** Added new `ticketfly-css` modules ([#12](https://github.com/Ticketfly-UI/ticketfly-css/pull/12)).
+  + `ticketfly-css-position-utilities` @ ^0.1.0
+  + `ticketfly-css-v-align-utilities` @ ^0.1.0
+
+
 # 0.3.3 &mdash; January 27, 2017
 
 - **[PATCH]** Use `package.json` instead of blueprint install for index.js dependencies
 ([#28](https://github.com/Ticketfly-UI/ticketfly-css/pull/28)).
+
 
 # 0.3.2 &mdash; January 27, 2017
 
@@ -40,13 +48,13 @@ instead of `afterInstall` ([#25](https://github.com/Ticketfly-UI/ticketfly-css/p
 
 # 0.0.7 &mdash; January 8, 2017
 
-- **[ENHANCEMENT]** Added new `ticketfly-css` packages ([#12](https://github.com/Ticketfly-UI/ticketfly-css/pull/12)).
+- **[ADDITION]** Added new `ticketfly-css` modules ([#12](https://github.com/Ticketfly-UI/ticketfly-css/pull/12)).
  + `ticketfly-css-grid-objects`
 
 
 # 0.0.6 &mdash; January 2, 2017
 
-- **[ENHANCEMENT]** Added new `ticketfly-css` packages ([#11](https://github.com/Ticketfly-UI/ticketfly-css/pull/11)).
+- **[ADDITION]** Added new `ticketfly-css` modules ([#11](https://github.com/Ticketfly-UI/ticketfly-css/pull/11)).
  + `ticketfly-css-box-shadow-garnishes`
  + `ticketfly-css-box-shadow-variables`
  + `ticketfly-css-color-garnishes`
@@ -55,7 +63,7 @@ instead of `afterInstall` ([#25](https://github.com/Ticketfly-UI/ticketfly-css/p
 
 # 0.0.5 &mdash; December 30, 2016
 
-- **[ENHANCEMENT]** Added new `ticketfly-css` packages ([#10](https://github.com/Ticketfly-UI/ticketfly-css/pull/10)).
+- **[ADDITION]** Added new `ticketfly-css` modules ([#10](https://github.com/Ticketfly-UI/ticketfly-css/pull/10)).
   + `ticketfly-css-box-objects`
   + `ticketfly-css-display-utilities`
   + `ticketfly-css-flex-utilities`
@@ -66,7 +74,7 @@ instead of `afterInstall` ([#25](https://github.com/Ticketfly-UI/ticketfly-css/p
 
 # 0.0.4 &mdash; December 29, 2016
 
-- **[ENHANCEMENT]** Added new `ticketfly-css` packages ([#10](https://github.com/Ticketfly-UI/ticketfly-css/pull/10)).
+- **[ADDITION]** Added new `ticketfly-css` modules ([#10](https://github.com/Ticketfly-UI/ticketfly-css/pull/10)).
   + `ticketfly-css-reset-garnishes`
   + `ticketfly-css-sizing-utilities`
   + `ticketfly-css-spacing-utilities`
