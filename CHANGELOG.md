@@ -1,3 +1,9 @@
+# 0.3.2 &mdash; January 27, 2017
+
+- **[PATCHED]** Add packages to consuming projects during the blueprint's `beforeInstall` hook &mdash;
+instead of `afterInstall` ([#25](https://github.com/Ticketfly-UI/ticketfly-css/pull/25)).
+
+
 # 0.3.1 &mdash; January 27, 2017
 
 - **[ENHANCEMENT]** Update `ticketfly-css-box-objects`: `^0.0.1` &mdash;> `^0.1.0` ([#27](https://github.com/Ticketfly-UI/ticketfly-css/pull/27)).
