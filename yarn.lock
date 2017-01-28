@@ -4725,11 +4725,11 @@ oauth-sign@~0.8.1:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.8.2.tgz#46a6ab7f0aead8deae9ec0565780b7d4efeb9d43"
 
-object-assign@4.1.0, object-assign@^4.0.1, object-assign@^4.1.0:
+object-assign@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.0.tgz#7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0"
 
-object-assign@4.1.1:
+object-assign@4.1.1, object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
@@ -6754,6 +6754,10 @@ ticketfly-css-overflow-utilities@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/ticketfly-css-overflow-utilities/-/ticketfly-css-overflow-utilities-0.0.1.tgz#0d4d246413532f4d5b73d17e4f6e580799836569"
 
+ticketfly-css-position-utilities@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/ticketfly-css-position-utilities/-/ticketfly-css-position-utilities-0.1.0.tgz#08e8d011df72fd8d157427842246ad548506af77"
+
 ticketfly-css-reset-garnishes@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/ticketfly-css-reset-garnishes/-/ticketfly-css-reset-garnishes-0.2.0.tgz#a5fc6c0b1d406f648a23e497d26a5d9ffffc426e"
@@ -6795,6 +6799,10 @@ ticketfly-css-typography-variables@^0.1.0:
 ticketfly-css-typography-variables@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/ticketfly-css-typography-variables/-/ticketfly-css-typography-variables-0.2.0.tgz#4f4202f03b6c60dea2d3d2223376477cd1a6a90c"
+
+ticketfly-css-v-align-utilities@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/ticketfly-css-v-align-utilities/-/ticketfly-css-v-align-utilities-0.1.0.tgz#12d7cb1efabdbad344505992d32c431e6e879e51"
 
 ticketfly-css-z-index-utilities@^0.0.1:
   version "0.0.1"
