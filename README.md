@@ -41,6 +41,7 @@ yarn add ticketfly-css
 - [ticketfly-css-box-shadow-variables](https://github.com/Ticketfly-UI/ticketfly-css-box-shadow-variables)
 - [ticketfly-css-color-variables](https://github.com/Ticketfly-UI/ticketfly-css-color-variables)
 - [ticketfly-css-spacing-variables](https://github.com/Ticketfly-UI/ticketfly-css-spacing-variables)
+- [ticketfly-css-typography-variables](https://github.com/Ticketfly-UI/ticketfly-css-typography-variables)
 
 ### Utilities
 
@@ -51,6 +52,8 @@ yarn add ticketfly-css
 - [ticketfly-css-spacing-utilities](https://github.com/Ticketfly-UI/ticketfly-css-spacing-utilities)
 - [ticketfly-css-text-utilities](https://github.com/Ticketfly-UI/ticketfly-css-text-utilities)
 - [ticketfly-css-z-index-utilities](https://github.com/Ticketfly-UI/ticketfly-css-z-index-utilities)
+- [ticketfly-css-position-utilities](https://github.com/Ticketfly-UI/ticketfly-css-position-utilities)
+- [ticketfly-css-v-align-utilities](https://github.com/Ticketfly-UI/ticketfly-css-v-align-utilities)
 
 
 ### Object Patterns
@@ -65,6 +68,7 @@ yarn add ticketfly-css
 - [ticketfly-css-box-shadow-garnishes](https://github.com/Ticketfly-UI/ticketfly-css-box-shadow-garnishes)
 - [ticketfly-css-color-garnishes](https://github.com/Ticketfly-UI/ticketfly-css-color-garnishes)
 - [ticketfly-css-reset-garnishes](https://github.com/Ticketfly-UI/ticketfly-css-reset-garnishes)
+- [ticketfly-css-typography-garnishes](https://github.com/Ticketfly-UI/ticketfly-css-typography-garnishes)
 
 
 ## Future and In-Progress Modules
