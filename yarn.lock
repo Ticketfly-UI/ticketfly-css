@@ -6740,9 +6740,9 @@ ticketfly-css-flex-utilities@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/ticketfly-css-flex-utilities/-/ticketfly-css-flex-utilities-0.0.1.tgz#125150dab7f0dbf3f46a4aaa349587e68f14c817"
 
-ticketfly-css-grid-objects@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/ticketfly-css-grid-objects/-/ticketfly-css-grid-objects-0.0.2.tgz#75e357d68bfda81bde07b21bc2e6f84e73110ad0"
+ticketfly-css-grid-objects@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/ticketfly-css-grid-objects/-/ticketfly-css-grid-objects-0.1.1.tgz#02806c9b1f9fe4a4a9e615a045ebc356b9389e16"
   dependencies:
     ticketfly-css-spacing-variables "^0.0.5"
 

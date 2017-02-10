@@ -54,7 +54,7 @@
     "ticketfly-css-core-variables": "^0.0.1",
     "ticketfly-css-display-utilities": "^0.0.1",
     "ticketfly-css-flex-utilities": "^0.0.1",
-    "ticketfly-css-grid-objects": "^0.0.2",
+    "ticketfly-css-grid-objects": "^0.1.1",
     "ticketfly-css-normalize": "^0.1.0",
     "ticketfly-css-overflow-utilities": "^0.0.1",
     "ticketfly-css-position-utilities": "^0.1.0",
