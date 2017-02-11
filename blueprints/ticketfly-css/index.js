@@ -1,4 +1,4 @@
-/* global module */
+/* eslint-env node */
 module.exports = {
   description: 'install ticketfly-css into an Ember CLI project',
 

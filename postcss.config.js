@@ -9,9 +9,6 @@
  * (@see: https://github.com/postcss/postcss-cli)
  */
 module.exports = {
-  input: 'src/index.css',
-  output: 'build/ticketfly-css.css',
-
   // ⚠️ Order matters! PostCSS will run plugins in the order listed.
   use: [
     'stylelint',

@@ -1,4 +1,4 @@
-/* global require, module */
+/* eslint-env node */
 const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 const cssNext = require('postcss-cssnext');
 const cssImport = require('postcss-import');
