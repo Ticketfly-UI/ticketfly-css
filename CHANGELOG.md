@@ -1,3 +1,9 @@
+# 0.4.3 &mdash; February 10, 2017
+
+- **[PATCH]** Update to `ticketfly-css-spacing-variables` ^0.1.0 to fix the way it compiles its distributed CSS
+([#36](https://github.com/Ticketfly-UI/ticketfly-css/pull/36)).
+
+
 # 0.4.2 &mdash; February 10, 2017
 
 - **[PATCH]** Update to `ticketfly-css-box-objects` ^0.1.1 to fix the way it compiles its distributed CSS
