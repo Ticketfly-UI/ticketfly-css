@@ -6778,6 +6778,12 @@ ticketfly-css-spacing-variables@^0.0.5:
   dependencies:
     ticketfly-css-core-variables "^0.0.1"
 
+ticketfly-css-spacing-variables@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/ticketfly-css-spacing-variables/-/ticketfly-css-spacing-variables-0.1.0.tgz#c563e194f4ab769ad9f9a00a6deb82f76a64c2b1"
+  dependencies:
+    ticketfly-css-core-variables "^0.0.1"
+
 ticketfly-css-tap-target-objects@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/ticketfly-css-tap-target-objects/-/ticketfly-css-tap-target-objects-0.0.1.tgz#2610fa86888b442677c19f048bb73b5079b9f9a0"
