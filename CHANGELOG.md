@@ -1,7 +1,13 @@
+# 0.4.2 &mdash; February 10, 2017
+
+- **[PATCH]** Update to `ticketfly-css-box-objects` ^0.1.1 to fix the way it compiles its distributed CSS
+([#34](https://github.com/Ticketfly-UI/ticketfly-css/pull/34)).
+
+
 # 0.4.1 &mdash; February 9, 2017
 
-- **[PATCH]** Update to `ticketfly-css-grid-objects` to fix the way it compiles its distributed CSS
-([#32](https://github.com/Ticketfly-UI/ticketfly-css/pull/32)).
+- **[PATCH]** Update to `ticketfly-css-grid-objects` ^0.1.1 to fix the way it compiles its distributed CSS
+([#34](https://github.com/Ticketfly-UI/ticketfly-css/pull/32)).
 
 
 # 0.4.0 &mdash; January 27, 2017
