@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "broccoli-funnel": "^1.1.0",
-    "broccoli-merge-trees": "^1.2.1",
+    "broccoli-merge-trees": "^2.0.0",
     "broccoli-postcss-single": "^1.2.1",
     "postcss-cssnext": "^2.9.0",
     "postcss-import": "^9.1.0",
