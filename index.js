@@ -54,11 +54,14 @@ module.exports = {
 
     // Ensures that imports work for nested addons and engines
     // @see: https://github.com/ember-cli/ember-cli/issues/3718
-    const parentApp = (typeof app.import !== 'function' && app.app) ? app.app : app;
-    const target = parentAddon || parentApp;
+
+    let target = parentAddon || app;
+    if (target.app) {
+      target = target.app;
+    }
 
     this._target = target;
-    this._targetConfig = this.project.config(this.app.env)['ticketfly-css'] || {};
+    this._targetConfig = this.project.config(this._target.env)['ticketfly-css'] || {};
 
     if (this.shouldImportStyles()) {
       this.importStyles();
