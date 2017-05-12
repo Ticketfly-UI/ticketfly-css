@@ -45,7 +45,7 @@
     "broccoli-merge-trees": "^1.2.1",
     "broccoli-postcss-single": "^1.2.1",
     "postcss-cssnext": "^2.9.0",
-    "postcss-import": "^9.1.0",
+    "postcss-import": "^10.0.0",
     "ticketfly-css-box-objects": "^0.1.1",
     "ticketfly-css-box-shadow-garnishes": "^0.0.1",
     "ticketfly-css-box-shadow-variables": "^0.0.2",
