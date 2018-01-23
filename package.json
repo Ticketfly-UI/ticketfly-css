@@ -73,7 +73,7 @@
     "broccoli-asset-rev": "^2.4.5",
     "chai": "^3.5.0",
     "cssnano": "^3.9.1",
-    "cssstats": "^3.0.0",
+    "cssstats": "^3.2.0",
     "del-cli": "^0.2.1",
     "ember-ajax": "^2.4.1",
     "ember-cli": "2.10.0",
