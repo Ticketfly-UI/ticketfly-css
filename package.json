@@ -70,7 +70,7 @@
     "ticketfly-css-z-index-utilities": "^0.0.1"
   },
   "devDependencies": {
-    "broccoli-asset-rev": "^2.4.5",
+    "broccoli-asset-rev": "2.6.0",
     "chai": "^3.5.0",
     "cssnano": "^3.9.1",
     "cssstats": "^3.0.0",
