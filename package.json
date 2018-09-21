@@ -100,7 +100,7 @@
     "loader.js": "^4.0.10",
     "mocha": "^3.2.0",
     "postcss-cli": "^2.6.0",
-    "postcss-custom-properties": "^5.0.1",
+    "postcss-custom-properties": "^8.0.5",
     "postcss-discard-comments": "^2.0.4",
     "postcss-importantly": "^0.0.7",
     "postcss-reporter": "^3.0.0",
