@@ -104,7 +104,7 @@
     "postcss-discard-comments": "^2.0.4",
     "postcss-importantly": "^0.0.7",
     "postcss-reporter": "^3.0.0",
-    "stylelint": "^7.7.0",
+    "stylelint": "^9.10.1",
     "stylelint-config-ticketfly": "^0.1.0"
   },
   "scripts": {
