@@ -72,7 +72,7 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "chai": "^3.5.0",
-    "cssnano": "^3.9.1",
+    "cssnano": "^4.1.10",
     "cssstats": "^3.0.0",
     "del-cli": "^0.2.1",
     "ember-ajax": "^2.4.1",
