@@ -74,7 +74,7 @@
     "chai": "^3.5.0",
     "cssnano": "^3.9.1",
     "cssstats": "^3.0.0",
-    "del-cli": "^0.2.1",
+    "del-cli": "^3.0.0",
     "ember-ajax": "^2.4.1",
     "ember-cli": "2.10.0",
     "ember-cli-app-version": "^2.0.0",
