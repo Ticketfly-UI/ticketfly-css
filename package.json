@@ -41,7 +41,7 @@
     "node": ">=6.x"
   },
   "dependencies": {
-    "broccoli-funnel": "^1.1.0",
+    "broccoli-funnel": "^3.0.0",
     "broccoli-merge-trees": "^1.2.1",
     "broccoli-postcss-single": "^1.2.1",
     "postcss-cssnext": "^2.9.0",
